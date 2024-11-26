@@ -15,7 +15,7 @@ st.sidebar.header("Filtros:")
 conn = sqlite3.connect('banco.db')
 query = "SELECT * FROM dados;"
 dados_gerais = pd.read_sql_query(query, conn)
-conn.close()
+
 
 
 
